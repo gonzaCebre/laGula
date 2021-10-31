@@ -7,7 +7,7 @@
             "precio": 580,
             "categoria": "Desayunos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/01.jpg"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "precio": 600,
             "categoria": "Desayunos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/02.jpg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "precio": 680,
             "categoria": "Desayunos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/03.jpg"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "precio": 680,
             "categoria": "Desayunos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/04.jpg"
         }
     ],
     "brunchs": [
@@ -45,7 +45,7 @@
             "precio": 550,
             "categoria": "brunchs",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/05.jpg"
         },
         {
             "id": 6,
@@ -54,7 +54,7 @@
             "precio": 600,
             "categoria": "brunchs",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/06.jpg"
         },
         {
             "id": 7,
@@ -63,7 +63,7 @@
             "precio": 550,
             "categoria": "brunchs",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/07.jpg"
         },
         {
             "id": 8,
@@ -72,7 +72,7 @@
             "precio": 450,
             "categoria": "brunchs",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/07.jpg"
         },
         {
             "id": 9,
@@ -81,7 +81,7 @@
             "precio": 450,
             "categoria": "brunchs",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/09.jpg"
         }
     ],
     "almuerzos": [
@@ -92,7 +92,7 @@
             "precio": 700,
             "categoria": "almuerzos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/10.jpg"
         },
         {
             "id": 11,
@@ -101,7 +101,7 @@
             "precio": 700,
             "categoria": "almuerzos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/11.jpg"
         },
         {
             "id": 12,
@@ -110,7 +110,7 @@
             "precio": 580,
             "categoria": "almuerzos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/12.jpg"
         },
         {
             "id": 13,
@@ -119,7 +119,7 @@
             "precio": 550,
             "categoria": "almuerzos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/13.jpg"
         },
         {
             "id": 14,
@@ -128,7 +128,7 @@
             "precio": 690,
             "categoria": "almuerzos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/14.jpg"
         }
     ],
     "tortas": [
@@ -139,7 +139,7 @@
             "precio": 600,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/15.jpg"
         },
         {
             "id": 16,
@@ -148,7 +148,7 @@
             "precio": 600,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/16.jpg"
         },
         {
             "id": 17,
@@ -157,7 +157,7 @@
             "precio": 550,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/17.jpg"
         },
         {
             "id": 18,
@@ -166,7 +166,7 @@
             "precio": 600,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/18.jpg"
         },
         {
             "id": 19,
@@ -175,7 +175,7 @@
             "precio": 550,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/19.jpg"
         },
         {
             "id": 20,
@@ -184,7 +184,7 @@
             "precio": 600,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/20.jpg"
         },
         {
             "id": 21,
@@ -193,7 +193,7 @@
             "precio": 600,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/21.jpg"
         },
         {
             "id": 22,
@@ -202,7 +202,7 @@
             "precio": 550,
             "categoria": "tortas",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/22.jpg"
         }
     ]
 }

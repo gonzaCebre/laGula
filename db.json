@@ -1,6 +1,14 @@
 {
     "desayunos": [
-        
+        {
+            "id": 1,
+            "nombre": "PANERITA",
+            "descripcion": "Mix de panes tostados para untar y elegir, con 3 Dips* a elección.",
+            "precio": 580,
+            "categoria": "Desayunos",
+            "stock": 100,
+            "foto": "./media/img/01.jpg"
+        },
         {
             "id": 2,
             "nombre": "QUERIDO BOWL",

@@ -1,7 +1,7 @@
 .seccionMenus {
     margin: 1.8rem;
     display: flex;
-    width: 80%;
+    width: 55%;
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
@@ -26,7 +26,8 @@
             width: 15rem;
             border-radius: 1rem;
             margin: 1rem 0;
-            box-shadow: 3px 3px 5px rgb(107, 107, 107),/*  -5px -5px 5px rgb(143, 143, 143) */;
+            box-shadow: 3px 3px 5px rgb(107, 107, 107);
+            overflow: hidden;
         }
 
         .descripcion{

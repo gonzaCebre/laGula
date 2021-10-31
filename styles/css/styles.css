@@ -92,7 +92,7 @@ nav {
 .seccionMenus {
   margin: 1.8rem;
   display: flex;
-  width: 80%;
+  width: 55%;
   justify-content: center;
   flex-wrap: wrap;
   position: relative; }
@@ -113,7 +113,8 @@ nav {
       width: 15rem;
       border-radius: 1rem;
       margin: 1rem 0;
-      box-shadow: 3px 3px 5px #6b6b6b; }
+      box-shadow: 3px 3px 5px #6b6b6b;
+      overflow: hidden; }
     .seccionMenus .cardMenu .descripcion {
       height: 7rem;
       overflow: hidden; }

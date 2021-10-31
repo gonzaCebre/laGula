@@ -135,37 +135,6 @@ const confirmarCompra = () => {
 }
 
 //Se va a ejecutar cuando se presione el boton del carrito 
-/* const mostrarCarrito = () => {
-
-    $(botonCarrito).hide(); */ //Se deja de mostrar el boton
-/*     $("#seccionMenus").html(" "); */
-
-//Se crea un elemento para cada uno de los menus seleccionados
-/*     for (const elemento of carritoArray) {
-
-        let seleccionado = $(document.createElement("div"));
-        $(seleccionado).addClass("menuEnCarrito")
-            .html(`
-         
-                           <span class="negrita titulo">${elemento.nombre}</span>
-                           <span class="negrita titulo">$${elemento.precio}</span>
-                          
-         
-                   `);
-
-        $(document.createElement("button")).addClass("botonQuitar").html("x").on("click", () => quitarElemento(elemento));
-
-        $(seleccionado).append()
-        $("#menusSeleccionados").append(seleccionado);
-    }
-
-    $("#total").html(`TOTAL: ${total}`)
-
-    $("#seccionCarrito").slideDown(1000);
-
-} */
-
-//Se va a ejecutar cuando se presione el boton del carrito 
 const mostrarCarrito = () => {
 
     $(botonCarrito).hide(); //Se deja de mostrar el boton

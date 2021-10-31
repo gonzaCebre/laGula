@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #663d77;
+  min-height: 100vh; }
+
+.fondoNegro {
+  width: 100%;
+  height: 100vh;
+  background-color: #494949; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: auto; }
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+  margin-top: 2rem; }
+
+h2 {
+  margin-bottom: 1rem; }
+
+.negrita {
+  font-weight: 600; }
+
+.categorias {
+  width: 55%;
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+  .categoriasTexto {
+    margin: 0.5rem 0; }
+
+.seccionInteraccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.seccionEventos {
+  position: fixed;
+  top: 6rem;
+  right: 1.5rem;
+  width: 12rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; }
+  .seccionEventos .cartel {
+    text-align: center; }
+
+header, footer {
+  background-color: #c9e9e6;
+  color: #663d77;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; }
+
+.title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.7rem; }
+
+nav {
+  width: 30%; }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: 600; }
+    nav ul li {
+      margin-right: 1rem; }
+      nav ul li a {
+        text-decoration: none;
+        color: #663d77; }
+
+.seccionMenus {
+  margin: 1.8rem;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative; }
+  .seccionMenus .cardMenu {
+    background-color: #c9e9e6;
+    width: 18rem;
+    height: 28rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .seccionMenus .cardMenu .titulo {
+      font-size: 1.5rem;
+      text-align: center; }
+    .seccionMenus .cardMenu .foto {
+      width: 15rem;
+      border-radius: 1rem;
+      margin: 1rem 0;
+      box-shadow: 3px 3px 5px #6b6b6b; }
+    .seccionMenus .cardMenu .descripcion {
+      height: 7rem;
+      overflow: hidden; }
+    .seccionMenus .cardMenu .precio {
+      font-size: 1.7rem;
+      margin: 0.5rem 0; }
+
+.botonAlCarrito, .botonesCategorias, .botonCarrito, .botonConfirmarCompra, .botonCancelarCompra {
+  background-color: #663d77;
+  color: white;
+  width: 10rem;
+  height: 2.2rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: "Montserrat", sans-serif; }
+  .botonAlCarrito:hover, .botonesCategorias:hover, .botonCarrito:hover, .botonConfirmarCompra:hover, .botonCancelarCompra:hover {
+    cursor: pointer;
+    color: #663d77;
+    background-color: white;
+    border: 2px solid #663d77; }
+
+.botonesCategorias {
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.botonCarrito {
+  background-color: #c9e9e6;
+  color: #663d77;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 7rem;
+  margin-bottom: 2rem; }
+
+.noDisplay {
+  display: none; }
+
+.botonQuitar {
+  background-color: #83c5be;
+  color: #663d77;
+  height: 1rem;
+  width: 1rem;
+  border: none;
+  border-radius: 50%;
+  font-weight: 600; }
+  .botonQuitar:hover {
+    cursor: pointer; }
+
+.botonConfirmarCompra, .botonCancelarCompra {
+  background-color: white;
+  color: #663d77;
+  margin: 1rem auto;
+  font-weight: 600; }
+
+.botonCancelarCompra {
+  background-color: #83c5be;
+  width: 5rem;
+  height: 1.5rem;
+  margin: 0 auto; }
+
+.seccionCarrito {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background-color: #494949;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .seccionCarrito .carritoCard {
+    background-color: #663d77;
+    color: white;
+    width: 30rem;
+    border-radius: 20px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; }
+    .seccionCarrito .carritoCard .menusSeleccionados {
+      width: 28rem; }
+    .seccionCarrito .carritoCard .seleccionado {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .seccionCarrito .carritoCard .menuEnCarrito {
+      width: 25rem;
+      margin: 1rem 0;
+      display: flex;
+      justify-content: space-between; }
+  .seccionCarrito .cartelExitoso {
+    background-color: white;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem; }
+
+.banner-foto {
+  width: 60%;
+  margin-top: 2rem;
+  border-radius: 10px; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .nosotros h2 {
+    font-family: "Kaushan Script", cursive;
+    margin-top: 1rem; }
+  .nosotros p {
+    margin: 0 6rem 2rem 6rem;
+    text-align: center; }
+
+.carrusel {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 1rem; }
+  .carrusel img {
+    width: 32%;
+    margin-bottom: 1rem; }

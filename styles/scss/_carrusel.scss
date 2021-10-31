@@ -1,0 +1,13 @@
+.carrusel {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-bottom: 1rem;
+
+    img{
+        width: 32%;
+        margin-bottom: 1rem;
+    }
+}

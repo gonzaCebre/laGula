@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $primaryFont;
+    color: $azul;    
+    min-height: 100vh;
+    
+}
+
+.fondoNegro{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(73, 73, 73);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+
+h1{
+    font-family: $titleFont;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+.categorias{
+    width: 55%;
+    margin: 1rem 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    &Texto {
+        margin: 0.5rem 0;
+    }
+
+}
+
+.seccionInteraccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.seccionEventos {
+    position: fixed;
+    top: 6rem;
+    right: 1.5rem;
+    width: 12rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    .cartel{
+        text-align: center;
+    }
+}

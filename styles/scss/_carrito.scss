@@ -1,0 +1,53 @@
+.seccionCarrito {    
+    width: 100%;
+    min-height: 100%;
+    height: auto;  
+    background-color: rgb(73, 73, 73);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .carritoCard {
+        background-color: $azul;
+        color: white;
+        width: 30rem;
+        border-radius: 20px;
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    
+        .menusSeleccionados{
+            width: 28rem;     
+        }
+    
+        .seleccionado {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .menuEnCarrito {
+            width: 25rem;
+            margin: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .cartelExitoso{
+        background-color: white;
+        width: 20rem;
+        height: 2rem;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
+

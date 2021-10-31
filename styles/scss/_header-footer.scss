@@ -1,0 +1,34 @@
+
+header, footer{
+    background-color: $rosa;
+    color: $azul;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.title {
+    font-family: $titleFont;
+    font-size: 1.7rem;
+}
+
+nav {
+    width: 30%;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        font-weight: 600;
+
+        li{
+            margin-right: 1rem;
+
+            a {
+                text-decoration: none;
+                color: $azul;
+            }
+        }
+    }
+}

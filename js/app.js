@@ -240,20 +240,20 @@ let URLGET = ""
 
 
 $("#desayunos").click(() => {
-    URLGET = "https://my-json-server.typicode.com/gonzacebre/menusLaGula/desayunos";
+    URLGET = "https://my-json-server.typicode.com/gonzacebre/laGula/desayunos";
     llamarMenus();
 });
 $("#brunch").click(() => {
-    URLGET = "https://my-json-server.typicode.com/gonzacebre/menusLaGula/brunchs";
+    URLGET = "https://my-json-server.typicode.com/gonzacebre/laGula/brunchs";
     llamarMenus();
 });
 $("#almuerzos").click(() => {
-    URLGET = "https://my-json-server.typicode.com/gonzacebre/menusLaGula/almuerzos";
+    URLGET = "https://my-json-server.typicode.com/gonzacebre/laGula/almuerzos";
     llamarMenus();
 });
 
 $("#tortas").click(() => {
-    URLGET = "https://my-json-server.typicode.com/gonzacebre/menusLaGula/tortas";
+    URLGET = "https://my-json-server.typicode.com/gonzacebre/laGula/tortas";
     llamarMenus();
 });
 

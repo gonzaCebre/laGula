@@ -7,7 +7,7 @@
             "precio": 580,
             "categoria": "Desayunos",
             "stock": 100,
-            "foto": "https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/elgranchef/c/como-debe-lucir-un-plato-saludable-1.jpg"
+            "foto": "./media/img/01.jpg"
         },
         {
             "id": 2,
